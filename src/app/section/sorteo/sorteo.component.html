@@ -1,3 +1,6 @@
-<p>
-sorteo works!
-</p>
+<form action="">
+  <textarea name="" id="" cols="30" rows="10" #opcSorteo></textarea>
+  <input type="submit" value="Garito" (click)="selWin(opcSorteo.value)" />
+  <input type="submit" value="Reset" (click)="resetWin()" />
+</form>
+<h2 *ngIf="winner > -1">{{ opcWinners[winner] }}</h2>
