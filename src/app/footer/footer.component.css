@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, blue 50%, royalblue 100%);
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.left-inf {
+}
+
+ul {
+  list-style: none;
+}
+
+.list-footer {
+}
